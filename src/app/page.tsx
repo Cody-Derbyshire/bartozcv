@@ -134,6 +134,9 @@ export default function Page() {
                 <CardContent className="mt-2 text-xs">
                   {work.description}
                 </CardContent>
+                <CardContent className="mt-2 text-xs">
+                  {work.achievements}
+                </CardContent>
               </Card>
             );
           })}
