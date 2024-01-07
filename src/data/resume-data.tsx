@@ -20,33 +20,34 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Cody Derbyshire",
+  initials: "CD",
+  location: "Wellington, New Zealand",
+  locationLink: "https://www.google.com/maps/place/Wellington",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Front-End Developer + Multi-Faceted Designer focused on Accessibility & Interactivity",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl:
+    "https://avatars.githubusercontent.com/u/123703655?s=400&u=ea3bc2e089b4014690a6daf667db02524ff53d6a&v=4",
+  personalWebsiteUrl: "https://codyderbyshire.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "derbyshire@outlook.co.nz",
+    tel: "+64220725530",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/Cody-Derbyshire",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "www.linkedin.com/in/cody-derbyshire-7388a423b",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/littleKodai",
         icon: XIcon,
       },
     ],
