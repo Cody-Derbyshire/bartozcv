@@ -138,11 +138,41 @@ export const RESUME_DATA = {
       title: "codyderbyshire.com",
       techStack: ["Side Project", "Vite", "React", "Framer Motion", "ThreeJS"],
       description:
-        "My personal website and portfolio. Built with React and ThreeJS",
+        "Personal website and portfolio. Built with React and ThreeJS",
       logo: "",
       link: {
         label: "",
         href: "https://www.codyderbyshire.com",
+      },
+    },
+    {
+      title: "Poke-API",
+      techStack: ["Side Project", "Vite", "React", "PokeAPI"],
+      description: "Gen I + II Pokedex built using React and the PokeAPI",
+      logo: "",
+      link: {
+        label: "",
+        href: "https://poke-gen.onrender.com/",
+      },
+    },
+    {
+      title: "Inky",
+      techStack: ["Side Project", "Javascript"],
+      description: "Chatbot built to help user decide on a tattoo style",
+      logo: "",
+      link: {
+        label: "",
+        href: "https://build-a-chatbot-wwl8.onrender.com/",
+      },
+    },
+    {
+      title: "@FONT-FACE",
+      techStack: ["Side Project", "React", "Stripe"],
+      description: "Webstore built to test Stripe integration",
+      logo: "",
+      link: {
+        label: "",
+        href: "https://react-online-shop.onrender.com/",
       },
     },
   ],
