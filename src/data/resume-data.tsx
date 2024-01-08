@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Wellington, New Zealand",
   locationLink: "https://www.google.com/maps/place/Wellington",
   about:
-    "Front-End Developer + Digital Designer focused on Accessibility & Interactivity",
+    "Front-End Developer + Digital Designer focused on Accessibility & Interactivity.",
   summary:
     "As a Front-End Developer + Digital Designer, I pride myself on making fun and accessible products. I'm always eager to learn and love feedback. Currently, I work mostly with Javascript, React, Node.js, Framer Motion and react-three-fiber. I have over 5 years of experience as a Designer and a 2 years as a Developer.",
   avatarUrl:
