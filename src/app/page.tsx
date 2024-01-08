@@ -24,6 +24,15 @@ export default function Page() {
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
               {RESUME_DATA.about}
             </p>
+            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
+              <a
+                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+                href={RESUME_DATA.personalWebsiteUrl}
+                target="_blank"
+              >
+                {RESUME_DATA.personalWebsiteUrl}
+              </a>
+            </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"

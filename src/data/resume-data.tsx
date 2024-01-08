@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   summary:
     "As a Front-End Developer + Digital Designer, I pride myself on making fun and accessible products. I'm always eager to learn and love feedback. Currently, I work mostly with Javascript, React, Node.js, Framer Motion and react-three-fiber. I have over 5 years of experience as a Designer and a 2 years as a Developer.",
   avatarUrl:
-    "https://avatars.githubusercontent.com/u/123703655?s=400&u=ea3bc2e089b4014690a6daf667db02524ff53d6a&v=4",
+    "https://avatars.githubusercontent.com/u/123703655?s=400&u=d8d259c7b9ecb4a43bf669be24968e809e17351b&v=4",
   personalWebsiteUrl: "https://codyderbyshire.com",
   contact: {
     email: "derbyshire@outlook.co.nz",
