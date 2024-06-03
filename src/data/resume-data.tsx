@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Wellington, New Zealand",
   locationLink: "https://www.google.com/maps/place/Wellington",
   about:
-    "Front-End Developer + Digital Designer focused on Accessibility & Interactivity.",
+    "Design Engineer focused on graphic design and front-end web development.",
   summary:
-    "As a Front-End Developer + Digital Designer, I pride myself on making fun and accessible products. I'm always eager to learn and love feedback. Currently, I work mostly with Javascript, React, Node.js, Framer Motion and react-three-fiber. I have over 5 years of experience as a Designer and a 2 years as a Developer.",
+    "As a Front-End Developer + Digital Designer, I pride myself on making fun and accessible products. I'm always eager to learn and love feedback. Currently, I work mostly with React, Framer Motion and the Adobe Suite. I have over 5 years of experience as a Designer and a 2 years as a Developer.",
   avatarUrl:
     "https://avatars.githubusercontent.com/u/123703655?s=400&u=d8d259c7b9ecb4a43bf669be24968e809e17351b&v=4",
   personalWebsiteUrl: "https://codyderbyshire.com",
@@ -108,9 +108,10 @@ export const RESUME_DATA = {
   ],
   skills: [
     "JavaScript",
+    "HTML",
     "CSS",
-    "React/Next.js",
-    "Node.js",
+    "React",
+    "Framer-motion",
     "Illustrator",
     "Photoshop",
     "Fusion 360",
@@ -119,15 +120,14 @@ export const RESUME_DATA = {
     {
       title: "Black Garlic Furniture",
       techStack: [
-        "Side Project",
+        
         "React",
-        "Next.js",
         "Vite",
         "Framer Motion",
         "Spline",
       ],
       description:
-        "Webstore proof of concept using Framer Motion and Spline for interactive UX",
+        "Webstore",
       logo: "",
       link: {
         label: "",
@@ -136,9 +136,9 @@ export const RESUME_DATA = {
     },
     {
       title: "codyderbyshire.com",
-      techStack: ["Side Project", "Vite", "React", "Framer Motion", "ThreeJS"],
+      techStack: [ "Vite", "React", "Framer Motion"],
       description:
-        "Personal website and portfolio. Built with React and ThreeJS",
+        "Personal Website",
       logo: "",
       link: {
         label: "",
@@ -147,8 +147,8 @@ export const RESUME_DATA = {
     },
     {
       title: "Poke-API",
-      techStack: ["Side Project", "Vite", "React", "PokeAPI"],
-      description: "Gen I + II Pokedex built using React and the PokeAPI",
+      techStack: [ "Vite", "React", "PokeAPI"],
+      description: "API",
       logo: "",
       link: {
         label: "",
@@ -158,7 +158,7 @@ export const RESUME_DATA = {
     {
       title: "Inky",
       techStack: ["Side Project", "Javascript"],
-      description: "Chatbot built to help user decide on a tattoo style",
+      description: "Chatbot",
       logo: "",
       link: {
         label: "",
@@ -168,11 +168,21 @@ export const RESUME_DATA = {
     {
       title: "@FONT-FACE",
       techStack: ["Side Project", "React", "Stripe"],
-      description: "Webstore built to test Stripe integration",
+      description: "Webstore",
       logo: "",
       link: {
         label: "",
         href: "https://react-online-shop.onrender.com/",
+      },
+    },
+     {
+      title: "font-select",
+      techStack: [ "React"],
+      description: "Type Foundry",
+      logo: "",
+      link: {
+        label: "",
+        href: "https://font-select.onrender.com",
       },
     },
   ],
