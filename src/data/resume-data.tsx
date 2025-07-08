@@ -24,12 +24,12 @@ export const RESUME_DATA = {
   initials: "CD",
   location: "Wellington, New Zealand",
   locationLink: "https://www.google.com/maps/place/Wellington",
-  about:
-    "Front-End Developer + Digital Designer focused on Accessibility & Interactivity.",
+  about: "Life-long creative, Brand new teacher.",
   summary:
-    "As a Front-End Developer + Digital Designer, I pride myself on making fun and accessible products. I'm always eager to learn and love feedback. Currently, I work mostly with Javascript, React, Node.js, Framer Motion and react-three-fiber. I have over 5 years of experience as a Designer and a 2 years as a Developer.",
+    "As a Design Engineer, I prided myself on making fun and accessible products; now I get to share those products with Aotearoa's next generation of makers and creators. I have over 5 years of experience as a Designer and a 2 years as a Developer.",
   avatarUrl:
-    "https://avatars.githubusercontent.com/u/123703655?s=400&u=d8d259c7b9ecb4a43bf669be24968e809e17351b&v=4",
+    //"https://avatars.githubusercontent.com/u/123703655?s=400&u=d8d259c7b9ecb4a43bf669be24968e809e17351b&v=4"
+    "https://avatars.githubusercontent.com/u/123703655?v=4",
   personalWebsiteUrl: "https://codyderbyshire.com",
   contact: {
     email: "derbyshire@outlook.co.nz",
@@ -42,43 +42,31 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "www.linkedin.com/in/cody-derbyshire-7388a423b",
+        url: "https://www.linkedin.com/in/cody-derbyshire/",
         icon: LinkedInIcon,
       },
-      {
+      /* {
         name: "X",
         url: "https://twitter.com/littleKodai",
         icon: XIcon,
-      },
+      }, */
     ],
   },
-  education: [
-    {
-      school: "Whitecliffe College",
-      degree: "Diploma in Web Development and Design",
-      start: "2023",
-      end: "2023",
-    },
-    {
-      school: "Yoobee College",
-      degree: "NZ Certificate in Information Technology (Level 5)",
-      start: "2022",
-      end: "2022",
-    },
-    {
-      school: "Toi Whakaari",
-      degree: "Bachelor of Design",
-      start: "2018",
-      end: "2020",
-    },
-    {
-      school: "Melbourne Polytechnic",
-      degree: "Diploma of Costume Design + Construction",
-      start: "2017",
-      end: "2017",
-    },
-  ],
+
   work: [
+    {
+      company: "Freelance Design",
+      link: "https://www.codyderbyshire.com",
+      badges: [],
+      title: "Digital Designer",
+      logo: "",
+      start: "2018",
+      end: "2025",
+      description:
+        "Creation of but not limited to websites, business cards, branding, posters, pamphelets, invitations, and user experiences. Technologies: Adobe Illustrator, Adobe Photoshop, Squarespace, Javascript, React, HTML, CSS",
+      achievements:
+        "Branding & Marketing for Toi Whakaari Manifest showcase, Website and UX for Toi Whakaari Festival of Work in Development 2020",
+    },
     {
       company: "Scale Studios",
       link: "https://www.scalestudios.co.nz/",
@@ -92,30 +80,73 @@ export const RESUME_DATA = {
       achievements:
         "Work featured in Avatar 2, Rings of Power, X, Pearl, and Evil Dead Rise",
     },
-    {
-      company: "Freelance Design",
-      link: "https://www.codyderbyshire.com",
+    /*  {
+      company: "NZ Games Festival",
+      link: "https://nzgamesfest.com/",
       badges: [],
-      title: "Digital Designer",
+      title: " Website Manager",
       logo: "",
-      start: "2018",
-      end: "Current",
+      start: "2025",
+      end: "2025",
       description:
-        "Creation of but not limited to websites, business cards, branding, posters, pamphelets, invitations, and user experiences. Technologies: Adobe Illustrator, Adobe Photoshop, Squarespace, Javascript, React, HTML, CSS",
-      achievements:
-        "Branding & Marketing for Toi Whakaari Manifest showcase, Website and UX for Toi Whakaari Festival of Work in Development 2020",
+        "Updating and management of website including uploading and reorganising events and data",
+      achievements: "",
+    }, */
+  ],
+  education: [
+    {
+      school: "Victoria University",
+      degree: "Graduate Diploma of Teaching (Secondary)",
+      start: "2025",
+      end: "current",
+      type: "Diploma",
+    },
+    {
+      school: "Whitecliffe College",
+      degree: "Diploma in Web Development and Design",
+      start: "2023",
+      end: "2023",
+      type: "Diploma",
+    },
+    {
+      school: "Yoobee College",
+      degree: "NZ Certificate in Information Technology (Level 5)",
+      start: "2022",
+      end: "2022",
+      type: "Certificate",
+    },
+    {
+      school: "Toi Whakaari",
+      degree: "Bachelor of Design",
+      start: "2018",
+      end: "2020",
+      type: "Degree",
+    },
+    {
+      school: "Melbourne Polytechnic",
+      degree: "Diploma of Costume Design + Construction",
+      start: "2017",
+      end: "2017",
+      type: "Diploma",
     },
   ],
   skills: [
-    "JavaScript",
-    "CSS",
-    "React/Next.js",
-    "Node.js",
-    "Illustrator",
-    "Photoshop",
-    "Fusion 360",
+    "Graphic Design",
+    "Web Development",
+    "Architecture",
+    "Industrial Design",
+    "Costume + Fashion Design",
+    "Prop Design",
+    "Sculpture",
+    "Animation",
+    "Hard Materials",
+    "Soft Materials",
+    "Printmaking",
+    "Woodworking",
+    "Metalworking",
+    "Electronics",
   ],
-  projects: [
+  /*   projects: [
     {
       title: "Black Garlic Furniture",
       techStack: [
@@ -175,5 +206,5 @@ export const RESUME_DATA = {
         href: "https://react-online-shop.onrender.com/",
       },
     },
-  ],
+  ], */
 } as const;
