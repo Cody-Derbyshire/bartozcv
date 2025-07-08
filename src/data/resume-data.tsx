@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Wellington",
   about: "Life-long creative, Brand new teacher.",
   summary:
-    "As a Design Engineer, I prided myself on making fun and accessible products; now I get to share those products with Aotearoa's next generation of makers and creators. I have over 5 years of experience as a Designer and a 2 years as a Developer.",
+    "As a Design Engineer, I prided myself on making fun and accessible products - now I get to share those skills with Aotearoa's next generation of makers and creators. I have over 5 years of experience as a Designer and 3 as a Developer.",
   avatarUrl:
     //"https://avatars.githubusercontent.com/u/123703655?s=400&u=d8d259c7b9ecb4a43bf669be24968e809e17351b&v=4"
     "https://avatars.githubusercontent.com/u/123703655?v=4",
