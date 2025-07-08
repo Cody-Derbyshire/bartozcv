@@ -150,15 +150,14 @@ export const RESUME_DATA = {
     {
       title: "Black Garlic Furniture",
       techStack: [
-        "Side Project",
+        
         "React",
-        "Next.js",
         "Vite",
         "Framer Motion",
         "Spline",
       ],
       description:
-        "Webstore proof of concept using Framer Motion and Spline for interactive UX",
+        "Webstore",
       logo: "",
       link: {
         label: "",
@@ -167,9 +166,9 @@ export const RESUME_DATA = {
     },
     {
       title: "codyderbyshire.com",
-      techStack: ["Side Project", "Vite", "React", "Framer Motion", "ThreeJS"],
+      techStack: [ "Vite", "React", "Framer Motion"],
       description:
-        "Personal website and portfolio. Built with React and ThreeJS",
+        "Personal Website",
       logo: "",
       link: {
         label: "",
@@ -178,8 +177,8 @@ export const RESUME_DATA = {
     },
     {
       title: "Poke-API",
-      techStack: ["Side Project", "Vite", "React", "PokeAPI"],
-      description: "Gen I + II Pokedex built using React and the PokeAPI",
+      techStack: [ "Vite", "React", "PokeAPI"],
+      description: "API",
       logo: "",
       link: {
         label: "",
@@ -189,7 +188,7 @@ export const RESUME_DATA = {
     {
       title: "Inky",
       techStack: ["Side Project", "Javascript"],
-      description: "Chatbot built to help user decide on a tattoo style",
+      description: "Chatbot",
       logo: "",
       link: {
         label: "",
@@ -199,7 +198,7 @@ export const RESUME_DATA = {
     {
       title: "@FONT-FACE",
       techStack: ["Side Project", "React", "Stripe"],
-      description: "Webstore built to test Stripe integration",
+      description: "Webstore",
       logo: "",
       link: {
         label: "",
