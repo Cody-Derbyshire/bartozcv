@@ -105,6 +105,7 @@ export const RESUME_DATA = {
     {
       school: "Whitecliffe College",
       degree: "Diploma in Web Development and Design",
+      placement: "",
       start: "2023",
       end: "2023",
       type: "Diploma",
@@ -112,6 +113,7 @@ export const RESUME_DATA = {
     {
       school: "Yoobee College",
       degree: "NZ Certificate in Information Technology (Level 5)",
+      placement: "",
       start: "2022",
       end: "2022",
       type: "Certificate",
@@ -119,6 +121,7 @@ export const RESUME_DATA = {
     {
       school: "Toi Whakaari",
       degree: "Bachelor of Design",
+      placement: "",
       start: "2018",
       end: "2020",
       type: "Degree",
@@ -126,6 +129,7 @@ export const RESUME_DATA = {
     {
       school: "Melbourne Polytechnic",
       degree: "Diploma of Costume Design + Construction",
+      placement: "",
       start: "2017",
       end: "2017",
       type: "Diploma",
