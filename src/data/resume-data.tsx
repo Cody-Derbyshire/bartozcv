@@ -150,6 +150,9 @@ export const RESUME_DATA = {
     "Woodworking",
     "Metalworking",
     "Electronics",
+    "Moldmaking",
+    "Technical Drawing", 
+  
   ],
   /*   projects: [
     {
