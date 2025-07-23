@@ -97,7 +97,7 @@ export const RESUME_DATA = {
     {
       school: "Victoria University",
       degree: "Graduate Diploma of Teaching (Secondary)",
-      placementOne: "Rāroa Intermediate",
+      placement: "Rāroa Intermediate",
       start: "2025",
       end: "current",
       type: "Diploma",
