@@ -183,7 +183,7 @@ export default function Page() {
                     {education.degree}
                   </CardContent>
                   <CardContent className="mt-2 font-black print:text-neutral-600">
-                    {education.placementOne}
+                    {education.placement}
                   </CardContent>
                 </Card>
               );
