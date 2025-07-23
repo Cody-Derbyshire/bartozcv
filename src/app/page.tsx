@@ -182,6 +182,9 @@ export default function Page() {
                   <CardContent className="mt-2 font-black print:text-neutral-600">
                     {education.degree}
                   </CardContent>
+                  <CardContent className="mt-2 font-black print:text-neutral-600">
+                    {education.placementOne}
+                  </CardContent>
                 </Card>
               );
             })}
