@@ -183,7 +183,7 @@ export default function Page() {
                     {education.degree}
                   </CardContent>
                   <CardContent className="mt-2 italic text-xs font-black print:text-neutral-600">
-                  first placement - {education.placement}
+                  {education.placement}
                   </CardContent>
                 </Card>
               );
