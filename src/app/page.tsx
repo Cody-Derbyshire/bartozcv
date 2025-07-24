@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <body className="blue-bg">
+    <body className="dark-pink-bg">
       <main className="container relative mx-auto scroll-my-12 overflow-auto bg-transparent p-4 text-white print:bg-zinc-100 print:p-0 md:p-16">
         <section className="mx-auto w-full max-w-2xl space-y-8 bg-transparent text-white print:space-y-3">
           <div className="flex items-center justify-between">
