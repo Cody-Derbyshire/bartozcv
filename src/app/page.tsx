@@ -22,7 +22,7 @@ export default function Page() {
         <section className="mx-auto w-full max-w-2xl space-y-8 bg-transparent text-white print:space-y-3">
           <div className="flex items-center justify-between">
             <div className="flex-1 space-y-1.5">
-              <h1 className="pb-2 text-5xl font-black print:text-2xl print:text-neutral-600">
+              <h1 className="pb-2 text-5xl font-black print:text-2xl print:text-blue-primary">
                 {RESUME_DATA.name}
               </h1>
               <p className="max-w-md text-pretty text-sm font-black text-muted-foreground print:text-neutral-600">
