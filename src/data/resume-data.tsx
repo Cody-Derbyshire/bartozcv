@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Wellington, New Zealand",
   locationLink: "https://www.google.com/maps/place/Wellington",
   about: "Life-long creative, Brand new teacher.",
-  quote: "Cody has demonstrated his dedication to the teaching profession on a weekly basis, and wants all akonga to experience success in his lessons.", 
+  quote: "Cody has demonstrated his dedication to the teaching profession on a weekly basis, and wants all ākonga to experience success in his lessons.", 
   summary:
     "As a Design Engineer, I prided myself on making fun and accessible products - now I get to share those skills with Aotearoa's next generation of makers and creators. I have over 5 years of experience as a Designer and 3 as a Developer.",
   avatarUrl:
