@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <body className="blue-bg">
-      <main className="container relative mx-auto scroll-my-12 overflow-auto bg-transparent p-4 text-white print:bg-zinc-100 print:p-0 md:p-16">
+      <main className="container relative mx-auto scroll-my-12 overflow-auto bg-transparent p-4 text-white  print:p-0 md:p-16">
         <section className="mx-auto w-full max-w-2xl space-y-8 bg-transparent text-white print:space-y-3">
           <div className="flex items-center justify-between">
             <div className="flex-1 space-y-1.5">
@@ -121,7 +121,7 @@ export default function Page() {
             </Marquee>
           </Section>
           <Section>
-          <p className="text-pretty italic text-sm font-black text-muted-foreground print:text-neutral-600">
+            <p className="text-pretty text-sm font-black italic text-muted-foreground print:text-neutral-600">
               {RESUME_DATA.quote}
             </p>
           </Section>
@@ -129,6 +129,14 @@ export default function Page() {
             <h2 className="text-xl font-black print:text-neutral-600">About</h2>
             <p className="text-pretty text-sm font-black text-muted-foreground print:text-neutral-600">
               {RESUME_DATA.summary}
+            </p>
+          </Section>
+          <Section>
+            <h2 className="text-xl font-black print:text-neutral-600">
+              Career Objective
+            </h2>
+            <p className="text-pretty text-sm font-black text-muted-foreground print:text-neutral-600">
+              {RESUME_DATA.careerObjective}
             </p>
           </Section>
           <Section>
@@ -187,14 +195,13 @@ export default function Page() {
                   <CardContent className="mt-2 font-black print:text-neutral-600">
                     {education.degree}
                   </CardContent>
-                  <CardContent className="mt-2 italic text-xs font-black print:text-neutral-600">
-                  {education.placement}
+                  <CardContent className="mt-2 text-xs font-black italic print:text-neutral-600">
+                    {education.placement}
                   </CardContent>
                 </Card>
               );
             })}
           </Section>
-
           <Section>
             <h2 className="text-xl font-black print:text-neutral-600">
               Skills
@@ -210,6 +217,50 @@ export default function Page() {
             </div>
           </Section>
 
+          <Section>
+            <h2 className="text-xl font-black print:text-neutral-600">
+              Interests
+            </h2>
+            <div className="flex flex-wrap gap-1">
+              {RESUME_DATA.interests.map((interest) => {
+                return (
+                  <Badge className="print:text-neutral-600" key={interest}>
+                    {interest}
+                  </Badge>
+                );
+              })}
+            </div>
+          </Section>
+          <Section>
+            <h2 className="text-xl font-black print:text-neutral-600">
+              References
+            </h2>
+            <div className="flex flex-row flex-wrap gap-2">
+              {RESUME_DATA.references.map((reference) => {
+                return (
+                  <Card
+                    key={reference.name}
+                    className="w-full max-w-xs print:text-neutral-600"
+                  >
+                    <CardHeader>
+                      <h3 className="font-black leading-none text-white print:text-neutral-600">
+                        {reference.name}
+                      </h3>
+                      <p className="text-xs font-black italic text-muted-foreground print:text-neutral-600">
+                        {reference.title}
+                      </p>
+                    </CardHeader>
+                    <CardContent className="mt-2 text-sm print:text-neutral-600">
+                      {reference.email}
+                    </CardContent>
+                    <CardContent className="mt-2 text-sm print:text-neutral-600">
+                      {reference.tel}
+                    </CardContent>
+                  </Card>
+                );
+              })}
+            </div>
+          </Section>
           {/* <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-black">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">

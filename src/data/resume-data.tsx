@@ -25,9 +25,12 @@ export const RESUME_DATA = {
   location: "Wellington, New Zealand",
   locationLink: "https://www.google.com/maps/place/Wellington",
   about: "Life-long creative, Brand new teacher.",
-  quote: "Cody has demonstrated his dedication to the teaching profession on a weekly basis, and wants all ākonga to experience success in his lessons.", 
+  quote:
+    '"Cody has demonstrated his dedication to the teaching profession on a weekly basis, and wants all ākonga to experience success in his lessons."',
   summary:
     "As a Design Engineer, I prided myself on making fun and accessible products - now I get to share those skills with Aotearoa's next generation of makers and creators. I have over 5 years of experience as a Designer and 3 as a Developer.",
+  careerObjective:
+    "Seeking a secondary school teaching position starting January 2026 to inspire the next generation of makers and creators through technology and visual arts education, committing to creating inclusive, hands-on learning environments where all ākonga can thrive.",
   avatarUrl:
     //"https://avatars.githubusercontent.com/u/123703655?s=400&u=d8d259c7b9ecb4a43bf669be24968e809e17351b&v=4"
     "https://avatars.githubusercontent.com/u/123703655?v=4",
@@ -98,7 +101,7 @@ export const RESUME_DATA = {
     {
       school: "Victoria University",
       degree: "Graduate Diploma of Teaching (Secondary)",
-      placement: "Rāroa Intermediate",
+      placement: "Rāroa Intermediate - Creative Media, Art, Digital Technology",
       start: "2025",
       end: "current",
       type: "Diploma",
@@ -152,8 +155,9 @@ export const RESUME_DATA = {
     "Metalworking",
     "Electronics",
     "Moldmaking",
-    "Technical Drawing", 
-  
+    "Technical Drawing",
+    "3D Printing",
+    "3D Modelling",
   ],
   /*   projects: [
     {
@@ -215,4 +219,29 @@ export const RESUME_DATA = {
       },
     },
   ], */
+  interests: [
+    "Fantasy + Sci-fi books",
+    "Woodworking",
+    "Designing + Building mid-century furniture",
+    "Product protoyping",
+    "Tabletop games",
+    "Succulents + Carnivorous plants",
+  ],
+
+  references: [
+    {
+      name: "Chris Johnston",
+      title: "Associate Teacher",
+      company: "Rāroa Intermediate",
+      email: "c.johnston@raroa.school.nz",
+      tel: "+64211369967",
+    },
+    {
+      name: "Katy Cottrell",
+      title: "Technology Lecturer",
+      company: "Victoria University",
+      email: "katy.cottrell@vuw.ac.nz",
+      tel: "+642108134762",
+    },
+  ],
 } as const;

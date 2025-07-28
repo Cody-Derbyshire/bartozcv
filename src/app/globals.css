@@ -36,8 +36,6 @@
 
     --blue-primary: 227, 100%, 50%;
   }
-
-  
 }
 
 @layer base {
@@ -70,4 +68,8 @@
 
 .print-text {
   color: magenta;
+}
+
+.garamond {
+  font-family: "Garamond", serif;
 }
